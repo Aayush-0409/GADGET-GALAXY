@@ -1,0 +1,389 @@
+#loginn
+{
+	position:absolute;
+	left:70%;
+	color:blue;
+}
+#loginn1
+{
+	font-family:Comic Sans MS;
+	font-size:18px;
+	padding-top:20px;
+	text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+
+}
+a:hover
+{
+color:black;
+}
+#bslogo
+{
+	float:left;
+	margin-left:5%;
+	margin-top:3px;
+}
+#cart
+{
+	/*float:right;*/
+}
+#cart1
+{
+	font-family:Comic Sans MS;
+	font-size:24px;
+	color:blue;
+	text-align:justify;
+	position:absolute;
+	left:82%;
+	top:3%;
+	text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+
+	
+}
+#wrap
+{
+	width:1000px;
+	height:60px;
+	background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	box-shadow:0px 4px 6px rgba(0,0,0,0.6);	
+	font-family:Charlemagne Std;
+	font-size:30px;
+	color:black;
+	text-align:center;
+	text-shadow:2px 2px 2px rgba(0,0,0,0.5);
+	text-width:bold;
+	opacity:1;
+
+}
+#main
+{
+	width:1000px;
+	height:1260px;
+	background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	box-shadow:0px 0px 6px 4px rgba(0,0,0,0.6);
+	opacity:0.9;	
+}
+#main1
+{
+	width:1000px;
+	height:1320px;
+	background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	box-shadow:0px 0px 6px 4px rgba(0,0,0,0.6);
+	opacity:0.9;	
+}
+a{
+	color:inherit;
+	text-decoration:none;
+}
+body
+{
+	background:#d7f2ed;
+}
+#d1,#d2,#d3,#d4,#d5{
+	width:200px;
+	height:100%;
+	overflow:hidden;
+	float:left;
+}
+#i2{
+margin-left:-200px;
+}
+#i3{
+margin-left:-400px;
+}
+#i4{
+margin-left:-600px;
+}
+#i5{
+margin-left:-800px;
+}
+#banner
+{
+	height:200px;
+	width:100%;
+	box-shadow:0px 4px 6px rgba(0,0,0,0.6);
+	position:relative;
+}
+li{
+	font-family:Arial ;	
+	font-size:14px;
+	background-color:peachpuff;
+	display:inline;
+	color:#191919;
+	padding:5px 35px 5px 35px;
+	position:relative;
+	top:12px;
+	margin-right:20px;
+	box-shadow:0px 4px 6px rgba(0,0,0,0.6);
+	font-weight:bold;
+}
+li:hover{
+	background-color:black;
+	background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#menu
+{
+	height:50px;
+
+	margin-top:-20px;
+}
+#content{
+	height:750px;
+   
+	overflow-y:auto;
+}
+#footer
+{
+	height:205px;
+	background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	box-shadow:0px 4px 6px rgba(0,0,0,0.6);	
+}
+#footertext
+{
+	font-family:Comic Sans MS;
+	font-size:18px;
+	color:#b5afaf;
+	text-align:center;
+}
+#footertext1
+{
+	font-family:Comic Sans MS;
+	font-size:14px;
+	color:black;
+	text-align:justify;
+	padding-left:15px;
+}
+#footertext2
+{
+	font-family:Comic Sans MS;
+	font-size:14px;
+	color:black;
+	text-align:justify;
+	padding-left:150px;
+}
+#footertext3hei
+{
+	font-family:Comic Sans MS;
+	font-size:18px;
+	color:black;
+	text-align:center;
+}
+ul
+{
+	height:45px;
+}
+#feedback
+{
+background-color:peachpuff;
+margin-top:60px;
+border:groove;
+border-width:thick;
+border-color:#645f5f;
+
+}
+#feedbacktext
+{
+font-family:Lucida Bright;
+font-size:18px;
+color:black;
+text-align:justify;
+padding-left:10px;
+}
+#feedbackinput
+{
+text-align:justify;
+padding-left:10px;
+}
+
+#tdin
+{
+width:250px;
+}
+#adminfeedbacktable
+{
+background-color:peachpuff;
+font-family:Lucida Bright;
+font-size:14px;
+color:white;
+text-align:center;
+
+border:inset;
+border-width:thick;
+border-color:#645f5f;
+}
+
+#admincontactfeedbacktable
+{
+margin-top:50px;
+background-color:white;
+
+border:groove;
+border-width:thick;
+border-color:#645f5f;
+}
+#admincontactfeedbacktableintext
+{
+font-family:Lucida Bright;
+font-size:14px;
+color:white;
+text-align:justify;
+padding-left:10px;
+}
+#admincontact
+{
+font-family:Comic Sans MS;
+font-size:28px;
+color:black;
+text-align:center;
+padding-top:30px;
+text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+text-decoration:underline;
+}
+#adminabouttable
+{
+margin-top:30px;
+background-color:peachpuff;
+
+border:groove;
+border-width:thick;
+border-color:#645f5f;
+}
+#adminabouttabletext
+{
+font-family:Lucida Bright;
+font-size:14px;
+color:#d3d3d3;
+text-align:justify;
+padding:10px;
+}
+#adminabout
+{
+font-family:Lucida Bright;
+font-size:24px;
+color:white;
+text-align:center;
+padding-top:30px;
+text-shadow:2px 2px 5px black;
+}
+
+#contactfeedbacktable
+{
+margin-top:70px;
+background-color:peachpuff;
+
+border:groove;
+border-width:thick;
+border-color:#645f5f;
+}
+
+#abouttable
+{
+margin-top:70px;
+background-color:peachpuff;
+
+border:groove;
+border-width:thick;
+border-color:#645f5f;
+}
+
+#adminindex
+{
+color:black;
+margin-top:100px;
+background:#ffdab9;
+
+border:groove;
+border-width:thick;
+border-color:#645f5f;
+}
+#adminabouttable
+{
+margin-top:50px;
+background-color:peachpuff;
+
+border:groove;
+border-width:thick;
+border-color:#645f5f;
+}
+#adminprouducttable
+{
+margin-top:10px;
+background-color:peachpuff;
+
+border:thick groove #645f5f;
+color:white;
+fomt-family:Lucida Calligraphy;
+font-size:18px;
+	height: 98px;
+}
+#usercontact
+{
+font-family:Comic Sans MS;
+font-size:20px;
+color:blue;
+text-align:center;
+padding-top:70px;
+text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+text-decoration:underline;
+}
+#userproduct
+{
+font-family:Comic Sans MS;
+
+
+
+}
+#userhome
+{
+font-family:Comic Sans MS;
+font-size:28px;
+color:blue;
+text-align:center;
+padding-top:20px;
+text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+}
+#adminproduct
+{
+font-family:Comic Sans MS;
+font-size:28px;
+color:blue;
+text-align:center;
+padding-top:30px;
+padding-bottom:20px;
+text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+text-decoration:underline;
+}
+#adminabout
+{
+font-family:Comic Sans MS;
+font-size:28px;
+color:blue;
+text-align:center;
+padding-top:30px;
+text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+text-decoration:underline;
+}
+#crd
+{
+font-family:Comic Sans MS;
+font-size:28px;
+color:blue;
+text-align:center;
+padding-top:10px;
+text-shadow:2px 2px 5px rgba(100,80,150,0.9);
+text-decoration:underline;
+}

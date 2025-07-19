@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="javascript.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+<center>
+<div id="main">
+<div id="wrap"><div style="position:relative;top:13px; color:#000">Gadget Galaxy</div></div>
+<div id="banner"><img src="images/Banner.jpg" width="100%" height="100%" /></div>
+<div id="menu">
+<ul style="margin-top:2%"> 
+<li>
+    <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Black" 
+        onclick="LinkButton1_Click">Add Category</asp:LinkButton></li>
+<li>
+    <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Black" 
+        onclick="LinkButton3_Click">Add Product</asp:LinkButton></li>
+<li>
+    <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Black" 
+        onclick="LinkButton5_Click">Show Order</asp:LinkButton>
+</li>
+<li>
+    <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="Black" 
+        onclick="LinkButton4_Click">Logout</asp:LinkButton></li>
+</ul>
+
+</div>
+<div id="content">
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</div>
+<div id="footer">
+<table border="1" width="100%" height="205px" cellpadding="5" cellspacing="10">
+<tr>
+<td colspan="2"><div id="footertext"><a href="admin_home.php?pg_id=home">Home</a>     |     <a href="admin_home.php?pg_id=products">Products</a>     |     <a href="admin_home.php?pg_id=contact">Contact Us</a>     |     <a href="admin_home.php?pg_id=about">About Us</a>     |     <a href="admin_home.php?pg_id=feedback">Feedback</a></div></td>
+</tr>
+<tr>
+<td width="60%"><div id="footertext1">Copyright 2025 Under Gadget Galaxy . <br>All Rights Reserved.</div></td>
+<td width="40%"><div id="footertext2">Developed By : <br>Akshat,Aayush & Utsav</div></td>
+</tr>
+<tr>
+<td colspan="2"><div id="footertext3">www.gadgetgalaxy.com</div></td>
+</tr>
+</table>
+</div>
+</div>
+</center>
+   
+    </form>
+</body>
+</html>
